@@ -1,4 +1,4 @@
-iwo = 'iwo.dudkiewicz2@gmail.com'
 
-def how_to_contact(who=iwo):
-    return f'write on {iwo}'
+
+def how_to_contact(who='iwo.dudkiwicz@gmail.com'):
+    return 'write on' + who
